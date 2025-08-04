@@ -2,12 +2,12 @@
   "large_language_model": {
     "openai": {
       "openai_api_base": "https://api.openai.com/v1",
-      "openai_api_key": "openai api key",
+      "openai_api_key": "your openai api key",
       "model_name": ["gpt-4.1-2025-04-14", "o3-2025-04-16"]
     },
     "deepseek":{
         "deepseek_api_base": "https://api.deepseek.com",
-        "deepseek_api_key":"deepseek api key",
+        "deepseek_api_key":"your deepseek api key",
         "model_name": ["deepseek-chat", "deepseek-reasoner"]
     },
     "aliyuncs": {
@@ -81,3 +81,4 @@
     }
   }
 }
+
