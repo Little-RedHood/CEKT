@@ -2,7 +2,7 @@
 
 ## CEKT: A Cognitive-Enhanced Knowledge Tracing with LLM Agents
 
-![The framework and details of CEKT](images/CEKT framework.png)
+![The framework and details of CEKT](images/CEKT_framework.png)
 
 
 ## Dataset
