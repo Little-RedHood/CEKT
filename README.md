@@ -1,3 +1,5 @@
 # CEKT
 
-We are organizing the files！
+## CEKT: A Cognitive-Enhanced Knowledge Tracing with LLM Agents
+
+
