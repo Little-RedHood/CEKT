@@ -1,0 +1,83 @@
+{
+  "large_language_model": {
+    "openai": {
+      "openai_api_base": "https://api.xty.app/v1",
+      "openai_api_key": "sk-klWrj4gGRAJAkvCj390743E70d6f46Fa92E23a97D0B833Eb",
+      "model_name": ["gpt-4.1-2025-04-14", "o3-2025-04-16"]
+    },
+    "deepseek":{
+        "deepseek_api_base": "https://api.deepseek.com",
+        "deepseek_api_key":"sk-9eac13f032754801ba85bffe724b521a",
+        "model_name": ["deepseek-chat", "deepseek-reasoner"]
+    },
+    "aliyuncs": {
+        "dashscope_api_base": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "dashscope_api_key": "sk-90f85d056d974e1ba39a40fe5a9dad01",
+        "model_name": ["llama3.1-70b-instruct", "qwen3-32b"]
+    }
+  },
+  "prompt": {
+    "dpath": "./drive/MyDrive/CEKT/data/prompt/",
+    "knowledge_base_template": "knowledge_base_template.txt",
+    "qk_prompt": "phase_1.txt",
+    "kc_range_prompt": "phase_2-1.txt",
+    "kc_use_prompt": "phase_2-2.txt",
+    "qkc_prompt": "phase_3.txt"
+  },
+  "dataset": {
+    "leetcode": {
+      "dpath": "./drive/MyDrive/CEKT/data/dataset/leetcode/",
+      "question_file": "leetcode_question.csv",
+      "sample_question_file": "sample_leetcode_question.csv",
+      "knowledge_file": "leetcode_knowledge_component.csv",
+      "cognitive_file": "leetcode_cognitive_level.csv",
+      "save_path": "./drive/MyDrive/CEKT/data/result/leetcode/",
+      "(prompt engineering) qk_file": "(prompt engineering_{model_name}) question_knowledge.csv",
+      "(prompt engineering) kc_range_file": "(prompt engineering_{model_name}) knowledge_cognitive_range.csv",
+      "(prompt engineering) kc_use_file": "(prompt engineering_{model_name}) knowledge_cognitive_use.csv",
+      "(prompt engineering) qkc_file": "(prompt engineering_{model_name}) question_knowledge_cognitive.csv",
+      "(llm agents) qk_file": "(llm agents_{model_name}) question_knowledge.csv",
+      "(llm agents) kc_use_file": "(llm agents_{model_name}) knowledge_cognitive_use.csv",
+      "(llm agents) qkc_file": "(llm agents_{model_name}) question_knowledge_cognitive.csv",
+      "(encoding) question_file": "(encoding) question.csv",
+      "(encoding) knowledge_file": "(encoding) knowledge_component.csv",
+      "(encoding) cognitive_file": "(encoding) cognitive_level.csv"
+    },
+    "bepkt": {
+      "dpath": "./drive/MyDrive/CEKT/data/dataset/bepkt/",
+      "question_file": "bepkt_question.csv",
+      "sample_question_file": "sample_bepkt_question.csv",
+      "knowledge_file": "bepkt_knowledge_component.csv",
+      "cognitive_file": "bepkt_cognitive_level.csv",
+      "save_path": "./drive/MyDrive/CEKT/data/result/bepkt/",
+      "(prompt engineering) qk_file": "(prompt engineering_{model_name}) question_knowledge.csv",
+      "(prompt engineering) kc_range_file": "(prompt engineering_{model_name}) knowledge_cognitive_range.csv",
+      "(prompt engineering) kc_use_file": "(prompt engineering_{model_name}) knowledge_cognitive_use.csv",
+      "(prompt engineering) qkc_file": "(prompt engineering_{model_name}) question_knowledge_cognitive.csv",
+      "(llm agents) qk_file": "(llm agents_{model_name}) question_knowledge.csv",
+      "(llm agents) kc_use_file": "(llm agents_{model_name}) knowledge_cognitive_use.csv",
+      "(llm agents) qkc_file": "(llm agents_{model_name}) question_knowledge_cognitive.csv",
+      "(encoding) question_file": "(encoding) question.csv",
+      "(encoding) knowledge_file": "(encoding) knowledge_component.csv",
+      "(encoding) cognitive_file": "(encoding) cognitive_level.csv"
+    },
+    "codeworkout":{
+      "dpath": "./drive/MyDrive/CEKT/data/dataset/codeworkout/",
+      "question_file": "codeworkout_question.csv",
+      "sample_question_file": "sample_codeworkout_question.csv",
+      "knowledge_file": "codeworkout_knowledge_component.csv",
+      "cognitive_file": "codeworkout_cognitive_level.csv",
+      "save_path": "./drive/MyDrive/CEKT/data/result/codeworkout/",
+      "(prompt engineering) qk_file": "(prompt engineering_{model_name}) question_knowledge.csv",
+      "(prompt engineering) kc_range_file": "(prompt engineering_{model_name}) knowledge_cognitive_range.csv",
+      "(prompt engineering) kc_use_file": "(prompt engineering_{model_name}) knowledge_cognitive_use.csv",
+      "(prompt engineering) qkc_file": "(prompt engineering_{model_name}) question_knowledge_cognitive.csv",
+      "(llm agents) qk_file": "(llm agents_{model_name}) question_knowledge.csv",
+      "(llm agents) kc_use_file": "(llm agents_{model_name}) knowledge_cognitive_use.csv",
+      "(llm agents) qkc_file": "(llm agents_{model_name}) question_knowledge_cognitive.csv",
+      "(encoding) question_file": "(encoding) question.csv",
+      "(encoding) knowledge_file": "(encoding) knowledge_component.csv",
+      "(encoding) cognitive_file": "(encoding) cognitive_level.csv"
+    }
+  }
+}

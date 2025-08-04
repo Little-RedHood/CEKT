@@ -1,0 +1,57 @@
+knowledge_component_id,knowledge_component_name
+0,search
+1,sort
+2,tree
+3,array
+4,greedy
+5,linked list
+6,simulation
+7,union set
+8,mathematics
+9,loop statement
+10,enumeration
+11,merge sort
+12,string
+13,depth-first search
+14,graph
+15,number theory
+16,pascal's triangle
+17,matrix
+18,combinatorics
+19,branch
+20,dynamic programming
+21,game
+22,minimum spanning tree
+23,tree array
+24,breadth-first search
+25,01 backpack
+26,binary exponentiation
+27,iteration
+28,big integer
+29,binary tree
+30,primenumber
+31,recursion
+32,backtracking
+33,fibonacci sequence
+34,stack
+35,conditional statement
+36,pointer
+37,macro
+37,struct
+39,if statement
+40,brute force
+41,dynamic allocation
+42,array of structures
+43,queue
+44,radix sort
+45,quick sort
+46,hash map
+47,heap sort
+48,top-k
+49,kruskal
+50,circular queue
+51,circular linked list
+52,binary search
+53,binary graph
+54,operator
+55,library function

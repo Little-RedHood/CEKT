@@ -1,0 +1,281 @@
+question_id,description,knowledge_component_official
+1,"Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.","{array, hash table}"
+27,"Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
+Consider the number of elements in nums which are not equal to val be k, to get accepted, you need to do the following things:
+Change the array nums such that the first k elements of nums contain the elements which are not equal to val. The remaining elements of nums are not important as well as the size of nums.
+Return k.","{array, two pointers}"
+45,"You are given a 0-indexed array of integers nums of length n. You are initially positioned at nums[0].
+Each element nums[i] represents the maximum length of a forward jump from index i. In other words, if you are at nums[i], you can jump to any nums[i + j] where:
+0 <= j <= nums[i] and
+i + j < n
+Return the minimum number of jumps to reach nums[n - 1]. The test cases are generated such that you can reach nums[n - 1].","{array, dynamic programming, greedy}"
+68,"Given an array of strings words and a width maxWidth, format the text such that each line has exactly maxWidth characters and is fully (left and right) justified.
+You should pack your words in a greedy approach; that is, pack as many words as you can in each line. Pad extra spaces ' ' when necessary so that each line has exactly maxWidth characters.
+Extra spaces between words should be distributed as evenly as possible. If the number of spaces on a line does not divide evenly between words, the empty slots on the left will be assigned more spaces than the slots on the right.
+For the last line of text, it should be left-justified, and no extra space is inserted between words.
+
+Note:
+A word is defined as a character sequence consisting of non-space characters only.
+Each word's length is guaranteed to be greater than 0 and not exceed maxWidth.
+The input array words contains at least one word.","{array, string, simulation}"
+122,"You are given an integer array prices where prices[i] is the price of a given stock on the ith day.
+On each day, you may decide to buy and/or sell the stock. You can only hold at most one share of the stock at any time. However, you can buy it then immediately sell it on the same day.
+Find and return the maximum profit you can achieve.","{array, dynamic programming, greedy}"
+5,"Given a string s, return the longest palindromic substring in s.","{two pointers, string, dynamic programming}"
+20,"Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+An input string is valid if:
+1.Open brackets must be closed by the same type of brackets.
+2.Open brackets must be closed in the correct order.
+3.Every close bracket has a corresponding open bracket of the same type.","{string, stack}"
+140,"Given a string s and a dictionary of strings wordDict, add spaces in s to construct a sentence where each word is a valid dictionary word. Return all such possible sentences in any order.
+Note that the same word in the dictionary may be reused multiple times in the segmentation.","{array, hash table, string, dynamic programming, backtracking, trie}"
+41,"Given an unsorted integer array nums. Return the smallest positive integer that is not present in nums.
+You must implement an algorithm that runs in O(n) time and uses O(1) auxiliary space.","{array, hash table}"
+217,"Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.","{array, hash table}"
+70,"You are climbing a staircase. It takes n steps to reach the top.
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?",{dynamic programming}
+198,"You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
+Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police.","{array, dynamic programming}"
+338,"Given an integer n, return an array ans of length n + 1 such that for each i (0 <= i <= n), ans[i] is the number of 1's in the binary representation of i.","{dynamic programming, bit manipulation}"
+11,"You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the i'th line are (i, 0) and (i, height[i]).
+Find two lines that together with the x-axis form a container, such that the container contains the most water.
+Return the maximum amount of water a container can store.
+Notice that you may not slant the container.","{array, two pointers, greedy}"
+376,"A wiggle sequence is a sequence where the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with one element and a sequence with two non-equal elements are trivially wiggle sequences.
+For example, [1, 7, 4, 9, 2, 5] is a wiggle sequence because the differences (6, -3, 5, -7, 3) alternate between positive and negative.
+In contrast, [1, 4, 7, 2, 5] and [1, 7, 4, 5, 5] are not wiggle sequences. The first is not because its first two differences are positive, and the second is not because its last difference is zero.
+A subsequence is obtained by deleting some elements (possibly zero) from the original sequence, leaving the remaining elements in their original order.
+Given an integer array nums, return the length of the longest wiggle subsequence of nums.","{array, dynamic programming, greedy}"
+409,"Given a string s which consists of lowercase or uppercase letters, return the length of the longest palindrome that can be built with those letters.
+Letters are case sensitive, for example, ""Aa"" is not considered a palindrome.","{hash table, string, greedy}"
+104,"Given the root of a binary tree, return its maximum depth.
+A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.","{depth-first search, breadth-first search, binary tree}"
+199,"Given the root of a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.","{depth-first search, breadth-first search, binary tree}"
+235,"Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST.
+According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”","{depth-first search, breadth-first search, binary tree}"
+350,"Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays and you may return the result in any order.","{array, hash table, two pointers, binary search}"
+410,"Given an integer array nums and an integer k, split nums into k non-empty subarrays such that the largest sum of any subarray is minimized.
+Return the minimized largest sum of the split.
+A subarray is a contiguous part of the array.","{array, binary search, dynamic programming, greedy, prefix sum}"
+719,"The distance of a pair of integers a and b is defined as the absolute difference between a and b.
+Given an integer array nums and an integer k, return the kth smallest distance among all the pairs nums[i] and nums[j] where 0 <= i < j < nums.length.","{array, two pointers, binary search}"
+181,"Table: Employee
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| id          | int     |
+| name        | varchar |
+| salary      | int     |
+| managerId   | int     |
++-------------+---------+
+id is the primary key (column with unique values) for this table.
+Each row of this table indicates the ID of an employee, their name, salary, and the ID of their manager.
+Write a solution to find the employees who earn more than their managers.
+Return the result table in any order.",{database}
+584,"Table: Customer
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| id          | int     |
+| name        | varchar |
+| referee_id  | int     |
++-------------+---------+
+In SQL, id is the primary key column for this table.
+Each row of this table indicates the id of a customer, their name, and the id of the customer who referred them.
+
+Find the names of the customer that are not referred by the customer with id = 2.
+Return the result table in any order.",{database}
+595,"Table: World
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| name        | varchar |
+| continent   | varchar |
+| area        | int     |
+| population  | int     |
+| gdp         | bigint  |
++-------------+---------+
+name is the primary key (column with unique values) for this table.
+Each row of this table gives information about the name of a country, the continent to which it belongs, its area, the population, and its GDP value.
+
+A country is big if:
+it has an area of at least three million (i.e., 3000000 km2), or
+it has a population of at least twenty-five million (i.e., 25000000).
+Write a solution to find the name, population, and area of the big countries.
+Return the result table in any order.
+",{database}
+652,"Given the root of a binary tree, return all duplicate subtrees.
+For each kind of duplicate subtrees, you only need to return the root node of any one of them.
+Two trees are duplicate if they have the same structure with the same node values.","{hash table, depth-first search, binary tree}"
+389,"You are given two strings s and t.
+String t is generated by random shuffling string s and then add one more letter at a random position.
+Return the letter that was added to t.","{hash table, string, bit manipulation}"
+777,"In a string composed of 'L', 'R', and 'X' characters, like ""RXXLRXRXL"", a move consists of either replacing one occurrence of ""XL"" with ""LX"", or replacing one occurrence of ""RX"" with ""XR"". Given the starting string start and the ending string result, return True if and only if there exists a sequence of moves to transform start to result.","{two pointers, string}"
+876,"Given the head of a singly linked list, return the middle node of the linked list.
+If there are two middle nodes, return the second middle node.","{linked list, two pointers}"
+658,"Given a sorted integer array arr, two integers k and x, return the k closest integers to x in the array. The result should also be sorted in ascending order.
+An integer a is closer to x than an integer b if:
+|a - x| < |b - x|, or
+|a - x| == |b - x| and a < b","{array, two pointers, binary search, sliding window, heap}"
+1337,"You are given an m x n binary matrix mat of 1's (representing soldiers) and 0's (representing civilians). The soldiers are positioned in front of the civilians. That is, all the 1's will appear to the left of all the 0's in each row.
+A row i is weaker than a row j if one of the following is true:
+The number of soldiers in row i is less than the number of soldiers in row j.
+Both rows have the same number of soldiers and i < j.
+Return the indices of the k weakest rows in the matrix ordered from weakest to strongest.","{array, binary search, heap}"
+303,"Given an integer array nums, handle multiple queries of the following type:
+Calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
+Implement the NumArray class:
+1. NumArray(int[] nums) Initializes the object with the integer array nums.
+2. int sumRange(int left, int right) Returns the sum of the elements of nums between indices left and right inclusive (i.e. nums[left] + nums[left + 1] + ... + nums[right]).","{array, design, prefix sum}"
+143,"You are given the head of a singly linked-list. The list can be represented as:
+L0 → L1 → … → Ln - 1 → Ln
+Reorder the list to be on the following form:
+L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
+You may not modify the values in the list's nodes. Only nodes themselves may be changed.","{linked list, two pointers, stack, recursion}"
+496,"The next greater element of some element x in an array is the first greater element that is to the right of x in the same array.
+You are given two distinct 0-indexed integer arrays nums1 and nums2, where nums1 is a subset of nums2.
+For each 0 <= i < nums1.length, find the index j such that nums1[i] == nums2[j] and determine the next greater element of nums2[j] in nums2. If there is no next greater element, then the answer for this query is -1.
+Return an array ans of length nums1.length such that ans[i] is the next greater element as described above.","{array, hash table, stack, monotonic stack}"
+566,"In MATLAB, there is a handy function called reshape which can reshape an m x n matrix into a new one with a different size r x c keeping its original data.
+You are given an m x n matrix mat and two integers r and c representing the number of rows and the number of columns of the wanted reshaped matrix.
+The reshaped matrix should be filled with all the elements of the original matrix in the same row-traversing order as they were.
+If the reshape operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.
+","{array, simulation}"
+832,"Given an n x n binary matrix image, flip the image horizontally, then invert it, and return the resulting image.
+To flip an image horizontally means that each row of the image is reversed.
+For example, flipping [1,1,0] horizontally results in [0,1,1].
+
+To invert an image means that each 0 is replaced by 1, and each 1 is replaced by 0.
+For example, inverting [0,1,1] results in [1,0,0].","{array, two pointers, bit manipulation, simulation}"
+997,"In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge.
+If the town judge exists, then:
+The town judge trusts nobody.
+Everybody (except for the town judge) trusts the town judge.
+There is exactly one person that satisfies properties 1 and 2.
+You are given an array trust where trust[i] = [ai, bi] representing that the person labeled ai trusts the person labeled bi. If a trust relationship does not exist in trust array, then such a trust relationship does not exist.
+
+Return the label of the town judge if the town judge exists and can be identified, or return -1 otherwise.","{array, hash table, graph}"
+1591,"You are given a tree (i.e. a connected, undirected graph that has no cycles) consisting of n nodes numbered from 0 to n - 1 and exactly n - 1 edges. The root of the tree is the node 0, and each node of the tree has a label which is a lower-case character given in the string labels (i.e. The node with the number i has the label labels[i]).
+The edges array is given on the form edges[i] = [ai, bi], which means there is an edge between nodes ai and bi in the tree.
+Return an array of size n where ans[i] is the number of nodes in the subtree of the ith node which have the same label as node i.
+A subtree of a tree T is the tree consisting of a node in T and all of its descendant nodes.","{hash table, tree, depth-first search, breadth-first search}"
+594,"We define a harmonious array as an array where the difference between its maximum value and its minimum value is exactly 1.
+Given an integer array nums, return the length of its longest harmonious subsequence among all its possible subsequences.","{array, hash table, sliding window}"
+1128,"Given a list of dominoes, dominoes[i] = [a, b] is equivalent to dominoes[j] = [c, d] if and only if either (a == c and b == d), or (a == d and b == c) - that is, one domino can be rotated to be equal to another domino.
+Return the number of pairs (i, j) for which 0 <= i < j < dominoes.length, and dominoes[i] is equivalent to dominoes[j].","{array, hash table}"
+155,"Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+Implement the MinStack class:
+MinStack() initializes the stack object.
+void push(int val) pushes the element val onto the stack.
+void pop() removes the element on the top of the stack.
+int top() gets the top element of the stack.
+int getMin() retrieves the minimum element in the stack.
+You must implement a solution with O(1) time complexity for each function.","{stack, design}"
+703,"You are part of a university admissions office and need to keep track of the kth highest test score from applicants in real-time. This helps to determine cut-off marks for interviews and admissions dynamically as new applicants submit their scores.
+You are tasked to implement a class which, for a given integer k, maintains a stream of test scores and continuously returns the kth highest test score after a new score has been submitted. More specifically, we are looking for the kth highest score in the sorted list of all scores.
+
+Implement the KthLargest class:
+KthLargest(int k, int[] nums) Initializes the object with the integer k and the stream of test scores nums.
+int add(int val) Adds a new test score val to the stream and returns the element representing the kth largest element in the pool of test scores so far.","{design, binary search tree, heap}"
+3,"Given a string s, find the length of the longest substring without repeating characters.","{hash table, string, sliding window}"
+1763,"A string s is nice if, for every letter of the alphabet that s contains, it appears both in uppercase and lowercase. For example, ""abABB"" is nice because 'A' and 'a' appear, and 'B' and 'b' appear. However, ""abA"" is not because 'b' appears, but 'B' does not.
+Given a string s, return the longest substring of s that is nice. If there are multiple, return the substring of the earliest occurrence. If there are none, return an empty string.","{hash table, string, divide and conquer, bit manipulation, sliding window}"
+131,"Given a string s, partition s such that every substring of the partition is a palindrome. Return all possible palindrome partitioning of s.","{string, dynamic programming, backtracking}"
+21,"You are given the heads of two sorted linked lists list1 and list2.
+Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
+Return the head of the merged linked list.","{linked list, recursion}"
+141,"Given head, the head of a linked list, determine if the linked list has a cycle in it.
+There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter.
+Return true if there is a cycle in the linked list. Otherwise, return false.","{hash table, linked list, two pointers}"
+816,"We had some 2-dimensional coordinates, like ""(1, 3)"" or ""(2, 0.5)"". Then, we removed all commas, decimal points, and spaces and ended up with the string s.
+For example, ""(1, 3)"" becomes s = ""(13)"" and ""(2, 0.5)"" becomes s = ""(205)"".
+Return a list of strings representing all possibilities for what our original coordinates could have been.
+Our original representation never had extraneous zeroes, so we never started with numbers like ""00"", ""0.0"", ""0.00"", ""1.0"", ""001"", ""00.01"", or any other number that can be represented with fewer digits. Also, a decimal point within a number never occurs without at least one digit occurring before it, so we never started with numbers like "".1"".
+The final answer list can be returned in any order. All coordinates in the final answer have exactly one space between them (occurring after the comma.)","{string, backtracking, enumeration}"
+1620,"You are given an array of network towers towers, where towers[i] = [xi, yi, qi] denotes the ith network tower with location (xi, yi) and quality factor qi. All the coordinates are integral coordinates on the X-Y plane, and the distance between the two coordinates is the Euclidean distance.
+You are also given an integer radius where a tower is reachable if the distance is less than or equal to radius. Outside that distance, the signal becomes garbled, and the tower is not reachable.
+The signal quality of the ith tower at a coordinate (x, y) is calculated with the formula ⌊qi / (1 + d)⌋, where d is the distance between the tower and the coordinate. The network quality at a coordinate is the sum of the signal qualities from all the reachable towers.
+Return the array [cx, cy] representing the integral coordinate (cx, cy) where the network quality is maximum. If there are multiple coordinates with the same network quality, return the lexicographically minimum non-negative coordinate.
+
+Note:
+A coordinate (x1, y1) is lexicographically smaller than (x2, y2) if either:
+x1 < x2, or
+x1 == x2 and y1 < y2.
+⌊val⌋ is the greatest integer less than or equal to val (the floor function).","{array, enumeration}"
+200,"Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
+An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.","{array, depth-first search, breadth-first search, union find}"
+695,"You are given an m x n binary matrix grid. An island is a group of 1's (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
+The area of an island is the number of cells with a value 1 in the island.
+Return the maximum area of an island in grid. If there is no island, return 0.","{array, depth-first search, breadth-first search, union find}"
+456,"Given an array of n integers nums, a 132 pattern is a subsequence of three integers nums[i], nums[j] and nums[k] such that i < j < k and nums[i] < nums[k] < nums[j].
+Return true if there is a 132 pattern in nums, otherwise, return false.","{binary search, stack, ordered set}"
+2363,"You are given two 2D integer arrays, items1 and items2, representing two sets of items. Each array items has the following properties:
+items[i] = [valuei, weighti] where valuei represents the value and weighti represents the weight of the ith item.
+The value of each item in items is unique.
+Return a 2D integer array ret where ret[i] = [valuei, weighti], with weighti being the sum of weights of all items with value valuei.
+Note: ret should be returned in ascending order by value.","{array, hash table, ordered set}"
+14,"Write a function to find the longest common prefix string amongst an array of strings.
+If there is no common prefix, return an empty string """".","{string, trie}"
+1316,Return the number of distinct non-empty substrings of text that can be written as the concatenation of some string with itself (i.e. it can be written as a + a where a is some string).,"{string, trie, rolling hash, hash function}"
+191,"Given a positive integer n, write a function that returns the number of set bits in its binary representation (also known as the Hamming weight).","{divide and conquer, bit manipulation}"
+1346,"Given an array arr of integers, check if there exist two indices i and j such that :
+i != j
+0 <= i, j < arr.length
+arr[i] == 2 * arr[j]","{array, hash table, two pointers, binary search}"
+729,"You are implementing a program to use as your calendar. We can add a new event if adding the event will not cause a double booking.
+A double booking happens when two events have some non-empty intersection (i.e., some moment is common to both events.).
+The event can be represented as a pair of integers startTime and endTime that represents a booking on the half-open interval [startTime, endTime), the range of real numbers x such that startTime <= x < endTime.
+
+Implement the MyCalendar class:
+MyCalendar() Initializes the calendar object.
+boolean book(int startTime, int endTime) Returns true if the event can be added to the calendar successfully without causing a double booking. Otherwise, return false and do not add the event to the calendar.","{array, binary search, design, segment tree, ordered set}"
+225,"Implement a last-in-first-out (LIFO) stack using only two queues. The implemented stack should support all the functions of a normal stack (push, top, pop, and empty).
+Implement the MyStack class:
+void push(int x) Pushes element x to the top of the stack.
+int pop() Removes the element on the top of the stack and returns it.
+int top() Returns the element on the top of the stack.
+boolean empty() Returns true if the stack is empty, false otherwise.
+
+Notes:
+1. You must use only standard operations of a queue, which means that only push to back, peek/pop from front, size and is empty operations are valid.
+2. Depending on your language, the queue may not be supported natively. You may simulate a queue using a list or deque (double-ended queue) as long as you use only a queue's standard operations.","{stack, design, queue}"
+232,"Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty).
+Implement the MyQueue class:
+void push(int x) Pushes element x to the back of the queue.
+int pop() Removes the element from the front of the queue and returns it.
+int peek() Returns the element at the front of the queue.
+boolean empty() Returns true if the queue is empty, false otherwise.
+
+Notes:
+1. You must use only standard operations of a stack, which means only push to top, peek/pop from top, size, and is empty operations are valid.
+2. Depending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.","{stack, design, queue}"
+108,"Given an integer array nums where the elements are sorted in ascending order, convert it to a height-balanced binary search tree.","{array, divide and conquer, binary search tree}"
+897,"Given the root of a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only one right child.","{stack, depth-first search, binary tree}"
+698,"Given an integer array nums and an integer k, return true if it is possible to divide this array into k non-empty subsets whose sums are all equal.","{array, dynamic programming, backtracking, bit manipulation}"
+526,"Suppose you have n integers labeled 1 through n. A permutation of those n integers perm (1-indexed) is considered a beautiful arrangement if for every i (1 <= i <= n), either of the following is true:
+perm[i] is divisible by i.
+i is divisible by perm[i].
+Given an integer n, return the number of the beautiful arrangements that you can construct.","{array, dynamic programming, backtracking, bit manipulation}"
+509,"The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is,
+F(0) = 0, F(1) = 1
+F(n) = F(n - 1) + F(n - 2), for n > 1.
+Given n, calculate F(n).","{dynamic programming, recursion}"
+1137,"The Tribonacci sequence Tn is defined as follows:
+T0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n >= 0.
+Given n, return the value of Tn.",{dynamic programming}
+705,"Design a HashSet without using any built-in hash table libraries.
+Implement MyHashSet class:
+void add(key) Inserts the value key into the HashSet.
+bool contains(key) Returns whether the value key exists in the HashSet or not.
+void remove(key) Removes the value key in the HashSet. If key does not exist in the HashSet, do nothing.","{array, hash table, linked list, design, hash function}"
+210,"There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1. You are given an array prerequisites where prerequisites[i] = [ai, bi] indicates that you must take course bi first if you want to take course ai.
+For example, the pair [0, 1], indicates that to take course 0 you have to first take course 1.
+Return the ordering of courses you should take to finish all courses. If there are many valid answers, return any of them. If it is impossible to finish all courses, return an empty array.","{depth-first search, breadth-first search, graph, topological sort}"
+572,"Given the roots of two binary trees root and subRoot, return true if there is a subtree of root with the same structure and node values of subRoot and false otherwise.
+A subtree of a binary tree tree is a tree that consists of a node in tree and all of this node's descendants. The tree tree could also be considered as a subtree of itself.","{depth-first search, breadth-first search, binary tree, hash function}"
+399,"You are given an array of variable pairs equations and an array of real numbers values, where equations[i] = [Ai, Bi] and values[i] represent the equation Ai / Bi = values[i]. Each Ai or Bi is a string that represents a single variable.
+You are also given some queries, where queries[j] = [Cj, Dj] represents the jth query where you must find the answer for Cj / Dj = ?.
+Return the answers to all queries. If a single answer cannot be determined, return -1.0.
+
+Note: The input is always valid. You may assume that evaluating the queries will not result in division by zero and that there is no contradiction.
+Note: The variables that do not occur in the list of equations are undefined, so the answer cannot be determined for them.","{array, string, depth-first search, breadth-first search, union find, graph, shortest path}"
