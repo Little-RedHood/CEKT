@@ -5,9 +5,6 @@
 ### Background Knowledge:
 {background_knowledge}
 
-### Tools:
-- In this task, you can ONLY perform the following tools: {tools}
-
 ### Reasoning Format:
 Question: the input question you must answer
 Thought: you should always think about what to do
@@ -20,4 +17,5 @@ Final Answer: the final answer to the original input question, your response sho
 
 ### Begin!
 Question: {input}
+
 Thought: {agent_scratchpad}
