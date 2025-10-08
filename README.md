@@ -1,6 +1,6 @@
 ## :hammer_and_wrench: CEKT
 
-![The framework and details of CEKT.](images/CEKT%20framework.svg)
+![The framework and details of CEKT.](images/CEKT%20framework.webp)
 
 
 ## :package: Dataset
