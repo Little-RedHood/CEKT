@@ -1,4 +1,4 @@
-## :hammer_and_wrench: CEKT
+## :hammer_and_wrench: CEKT Framework 
 
 ![The framework and details of CEKT.](images/CEKT%20framework.svg)
 
